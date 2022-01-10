@@ -1,0 +1,347 @@
+# Translation of Themes - Nisarg in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Nisarg package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-11 16:24:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Nisarg\n"
+
+#. Description of the plugin/theme
+msgid "Nisarg is a new fully responsive and translation ready theme that allows you to create stunning blogs and websites. Theme is well suited for travel, photography, recipe, design, art, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablets friendly.  It has various options in WordPress Customizer to change look of the theme. Theme customizer can be used to add your own header image of flexible height, background image, to set background color, header text color and accent color(Supports seven different accent colors).  Theme supports eight post formats, such as: Video, Image, Aside, Status, Audio, Quote, Link and Gallery."
+msgstr ""
+"Nisarg es un nuevo tema totalmente responsive y listo para ser traducido que te permite crear sorprendentes blogs y websites. La plantilla va bien para viajes, fotografía, recetas, diseño, arte, portfolios y muchos otros sitios webs y blogs creativos.\n"
+"Está desarrollado usando Bootstrap 3 por lo que está preparado para móvilles y tablets. \n"
+"Posee varias opciones en el personalizador de WordPress para cambiarle el aspecto. \n"
+"Puedes usar el personalizador para agregar tu propia imagen de encabezado de altura flexilbe, la imagen de fondo, elegir un color de fondo, color de texto del encabezado y resaltados (soporta 7 colores de resaltado diferentes). También soporta ocho formatos de entrada: Video, Imagen, Estado, Audio, Cita, Lateral, Enlace y Galería."
+
+#. Theme Name of the plugin/theme
+msgid "Nisarg"
+msgstr "Nisarg"
+
+#: functions.php:141
+msgid "collapse child menu"
+msgstr "colapsar sub menú"
+
+#: functions.php:140
+msgid "expand child menu"
+msgstr "expander sub menú"
+
+#: footer.php:21
+msgid "Theme: %1$s"
+msgstr "Tema %1$s"
+
+#: inc/customizer.php:99
+msgid "Full post"
+msgstr "Entrada completa"
+
+#: inc/customizer.php:98
+msgid "Post excerpt"
+msgstr "Extracto de la entrada"
+
+#: inc/customizer.php:93
+msgid "How would you like to dipaly a post on post listing page?"
+msgstr "¿Cómo te gustaría mostrar una entrada en el listado de entradas?"
+
+#: inc/customizer.php:81
+msgid "Post Options"
+msgstr "Opciones de publicación"
+
+#: template-parts/content-excerpt.php:14 template-parts/content.php:14
+msgid "Featured"
+msgstr "Destacados"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que estas buscando. Tal vez, continuar buscando pueda ayudar."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero no se encontró ninguna coincidencia con sus términos de búsqueda. Por favor, pruebe de nuevo con otras palabras clave."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para públicar tu primer post? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:13 template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+#: sidebar.php:21
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:15
+msgid "Archives"
+msgstr "Archivo"
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#: search.php:13
+msgid "Search Results for: %s"
+msgstr "Buscar el resultado para: %s"
+
+#: inc/template-tags.php:177
+msgid "Edit This Post"
+msgstr "Editar esta entrada"
+
+#: inc/template-tags.php:170
+msgid " %1$s"
+msgstr " %1$s"
+
+#: inc/template-tags.php:161
+msgid "%1$s"
+msgstr "%1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:157 inc/template-tags.php:168
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:139
+msgid "% comments"
+msgstr "%s comentarios"
+
+#: inc/template-tags.php:139
+msgid "1 comment"
+msgstr "1 comentarios"
+
+#: inc/template-tags.php:139
+msgid "0 Comment"
+msgstr "0 comentarios"
+
+#: inc/template-tags.php:138
+msgctxt "Used before post author name."
+msgid "Comments"
+msgstr "Comentarios"
+
+#: inc/template-tags.php:121
+msgid "View all posts by"
+msgstr "Ver todas las entradas de"
+
+#: inc/template-tags.php:99
+msgid "Previous Post"
+msgstr "Entrada anterior"
+
+#: inc/template-tags.php:98
+msgid "PREVIOUS "
+msgstr "ANTERIOR"
+
+#: inc/template-tags.php:82
+msgid "Next Post"
+msgstr "Entrada siguiente"
+
+#: inc/template-tags.php:82
+msgid " NEXT"
+msgstr "SIGUIENTE"
+
+#: inc/template-tags.php:71
+msgid "Post navigation"
+msgstr "Publica navegaci&oacute;n"
+
+#: inc/template-tags.php:41
+msgid "OLDER POST"
+msgstr "ENTRADAS ANTERIORES"
+
+#: inc/template-tags.php:31
+msgid "NEWER POSTS"
+msgstr "ENTRADAS POSTERIORES"
+
+#: inc/template-tags.php:24
+msgid "Posts navigation"
+msgstr "Navegación de posts"
+
+#: inc/customizer.php:150
+msgid "Blue"
+msgstr "Azul"
+
+#: inc/customizer.php:144
+msgid "yellow"
+msgstr "Amarillo"
+
+#: inc/customizer.php:138
+msgid "Red"
+msgstr "Roja"
+
+#: inc/customizer.php:132
+msgid "Green"
+msgstr "Verde"
+
+#: inc/customizer.php:126
+msgid "Orange"
+msgstr "Anaranjado"
+
+#: inc/customizer.php:120
+msgid "Pink"
+msgstr "Rosa"
+
+#: inc/customizer.php:114
+msgid "Default"
+msgstr "Por defecto:"
+
+#: inc/customizer.php:72
+msgid "Applied to highlight elements."
+msgstr "Aplicado a los elementos resaltados"
+
+#: inc/customizer.php:42 inc/customizer.php:71
+msgid "Accent Color"
+msgstr "Color acentuado"
+
+#: inc/customizer.php:55
+msgid "Accent Color Name"
+msgstr "Nombre del color destadado"
+
+#: inc/customizer.php:33
+msgid "Applied to header background."
+msgstr "Aplicado al fondo del encabezado"
+
+#: inc/customizer.php:32
+msgid "Header Background Color"
+msgstr "Color de fondo cabecera"
+
+#: inc/custom-header.php:44
+msgctxt "header image description"
+msgid "Wood"
+msgstr "Madera"
+
+#: inc/custom-header.php:39
+msgctxt "header image description"
+msgid "buildings"
+msgstr "edificios"
+
+#: inc/custom-header.php:34 inc/custom-header.php:49
+msgctxt "header image description"
+msgid "food"
+msgstr "comida"
+
+#: inc/back-compat.php:28 inc/back-compat.php:37 inc/back-compat.php:49
+msgid "Nisarg requires at least WordPress version 4.7.1. You are running version %s. Please upgrade and try again."
+msgstr ""
+"Nisarg requiere al menos WordPress versión 4.7.1. Tienes la versión %s.\n"
+"Por favor actualiza e inténtalo de nuevo."
+
+#: image.php:94
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Comentarios y trackbacks están cerrados."
+
+#: image.php:92
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Los Trackbacks están cerrados, pero puedes <a class=\"comment-link\" href=\"#respond\" title=\"Escribir un comentario\">escribir un comentario</a>."
+
+#: image.php:90
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Los comentarios están cerrados, pero puedes dejar un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL oppara tu entrada\" rel=\"trackback\">Trackback URL </ a>."
+
+#: image.php:88
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Enviar un comentario\">Enviar un comentario</a> o dejar un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL para tu entrada\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:82 template-parts/content-aside.php:27
+#: template-parts/content-gallery.php:33 template-parts/content-link.php:32
+#: template-parts/content-page.php:26 template-parts/content-quote.php:34
+#: template-parts/content-status.php:22 template-parts/content.php:43
+msgid "Pages:"
+msgstr "P&aacute;ginas:"
+
+#: image.php:37
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: image.php:36
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: image.php:33 image.php:96 template-parts/content-page.php:33
+msgid "Edit"
+msgstr "corregir"
+
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> a <a href=\"%3$s\" title=\"Enlace a imagen de tamaño completo\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Volver a %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: functions.php:192 template-parts/content-aside.php:24
+#: template-parts/content-gallery.php:30 template-parts/content-link.php:29
+#: template-parts/content-quote.php:31 template-parts/content-status.php:19
+#: template-parts/content.php:38
+msgid " Read More"
+msgstr "Leer más"
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr "B.L."
+
+#: functions.php:55
+msgid "Top Primary Menu"
+msgstr "Menú principal superior"
+
+#: footer.php:17
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:16
+msgid "Proudly Powered by "
+msgstr "Con la tecnología de"
+
+#: comments.php:60 single.php:29
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados"
+
+#: comments.php:51
+msgid "Newer Comments"
+msgstr "Comentarios Recientes"
+
+#: comments.php:47
+msgid "Older Comments"
+msgstr "Comentarios Antiguos"
+
+#: comments.php:44
+msgid "Comment navigation"
+msgstr "Comentario de navegación"
+
+#: comments.php:26
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios sobre &ldquo;%2$s&rdquo;"
+
+#: archive.php:15
+msgid "Browsed by"
+msgstr "Navegando por"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se encontró nada aquí. ¿Quieres probar uno de los enlaces de abajo o una búsqueda?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Uups! Esta página no puede ser encontrada."
+
+#. Theme URI of the plugin/theme
+msgid "http://falgunidesai.com/work/nisarg-a-wordpress-theme/"
+msgstr "http://falgunidesai.com/work/nisarg-a-wordpress-theme/"
+
+#. Author URI of the plugin/theme
+msgid "http://falgunidesai.com/"
+msgstr "http://falgunidesai.com/"
+
+#. Author of the plugin/theme
+msgid "Falguni Desai"
+msgstr "Falguni Desai"

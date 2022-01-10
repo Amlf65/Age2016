@@ -1,0 +1,438 @@
+*{
+    font-family: "Helvetica";
+}
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+#contenido{
+    display: inline-block;
+    width: 100%;
+}
+/* BUSCADOR */
+#buscador{
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    padding: .5%;
+    margin-bottom: 2%;
+}
+#buscar{
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border-radius: 6px;
+    padding: 0 10px;
+    color: #5B5A5A;
+}
+#busqueda{
+    width: 85%;
+    border-radius: 6px;
+}
+
+/* DIV MI PERFIL */
+#tuPerfil{
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    border: 1px solid black;
+    width: 19%;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+    left: 1%;
+}
+#titulo1{
+    text-align: center;
+    font-size: 150%;
+    border-bottom: 1px solid black;
+}
+#title1, .title1{
+    font-weight: bold;
+}
+.des{
+    display:none;
+}
+#cancelar{  
+    color:white; 
+    background-color: #ADC8F2; 
+    font-size: 13pt;
+    float: right;
+    position: relative;
+    right: 2%;
+}
+#cajaImagen{
+    float: left;
+}
+#tuPerfil img{
+    margin-top: 2%;
+}
+#fotoPerfil{
+    height: 28%;
+    width: 28%;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+#saludo{
+    display: inline-block;
+    font-size: 80%;
+}
+#tuPerfil button{
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 100%;
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border: 1px solid black;
+    width: 100%;
+}
+#cerrarSesion{
+    border-radius: 0px 0px 20px 20px;
+}
+/* DIV CANDIDATURAS */
+#candidaturas, #candidaturas2, #candidaturas3{
+    background: -webkit-linear-gradient(left, #ffffff 5%,#cae4fb 100%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    padding-left: 1%;
+    border: 1px solid black;
+    margin-top: 15px;    
+    float: left;
+    position: relative;
+    left: 3%;
+}
+#candidaturas{
+    width: 50%;
+}
+#candidaturas2{
+    width: 77%;
+}
+#candidaturas3{
+    width: 75%;
+}
+h4{
+    background-color:#ADC8F2; 
+    text-align: center;
+    font-size: 150%; 
+}
+h5{
+    font-size: 14px;
+}
+.puestos,.puestos2,.puestos3{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    right: 2%;
+    padding: 0.5% 1%;
+}
+.puestos{
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    float: left;
+    width:24%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+.puestos2{
+    width:90%;
+    margin-left: 10%;
+    margin-bottom: 3.5%; 
+}
+.puestos3{
+    float: left;
+    width:100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.puestos .borrar{
+    border: none;
+    background: none;
+    width: 100%;
+    font-weight: bold;
+    color: #666;
+    cursor:pointer; 
+    cursor: hand;
+}
+/* DIV CV */
+#CV{
+    background: -webkit-linear-gradient(left, #ffffff 5%,#cae4fb 100%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    padding: 0 10px;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 3%; 
+    float: left;
+    position: relative;
+    left: 3%;
+}
+#CV td:first-child{
+    width: 25%;
+}
+#CV td{
+    border-top: 1px solid #888;
+    padding: 1% 0;
+}
+/* DIV INFORMACIÓN */
+#tuInfo{
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    padding: 0 10px;
+    border: 1px solid black;
+    width: 20%;
+    float: right;
+    position: relative;
+    right: 2%;
+    margin-top: 15px; 
+}
+#tuInfo #fecha{
+    font-weight: bold;
+    font-size: 120%;
+    padding-left: 30%;
+}
+#titulo2{
+    font-size: 130%;
+}
+#formacion{
+    line-height: 100%
+}
+hr{
+    width: 100%;
+    border: 0.5px solid #333;
+}
+#actualizar{
+    padding: 4%;
+    font-weight: 500;
+    font-size: 100%;
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border: 1px solid #5B5A5A;
+    border-radius: 5px;
+    margin-left: 25%; 
+    color: #5B5A5A;
+}
+#tuInfo p{
+    color: #5B5A5A;
+}
+/* Section Datos */
+#datos, #datos2, #datos3, #datos4{
+    background: -webkit-linear-gradient(left, #ffffff 5%,#cae4fb 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    margin-top: 15px;
+}
+#datos{ 
+    padding: 0 20% 10px;
+    border: 1px solid black;
+    width: 100%;  
+    display: inline-block;
+    position: relative;
+    left: 5%;
+}
+#datos td{
+    border-top: 1px solid #888;
+    padding: 1% 0;
+}
+#datos2,#datos3{
+    padding: 0 10px 10px;
+    border: 1px solid black;
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    left: 3%;
+}
+#datos h3{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#info_personal{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#info_personal div{
+    display: none;
+}
+#info_personal form input{
+    border-radius: 10px;
+    border: 1px solid #666;
+    padding: 3px;
+}
+#info_personal form input, #info_personal form select, #info_personal form label{
+    margin-left: 3%;
+}
+#info_personal form h5{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#info_personal form .enviar{
+    margin-top: 5px;
+    padding: 10px;
+    color: #0174DF;
+    background: white;
+    border:1px solid #0174DF;
+}
+#info_personal form .enviar:hover{
+    background: #0174DF;
+    color: white;
+}
+legend {
+    border:1px solid #ADC8F2;  
+    background-color: #ADC8F2; 
+    width: 98%; 
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 115%;
+    padding-left: 2%; 
+}
+#tecnico, #responsable, #agencia, .principio{
+    font-weight:bold;
+}
+input[type=submit]{  
+    color:#5B5858; 
+    background-color: #ADC8F2; 
+    font-size: 16pt;
+    margin: 2%;
+    padding: 0% 2%;
+}
+input[type=button]{  
+    color:#5B5858; 
+    background-color: #ADC8F2; 
+    font-size: 16pt;
+    margin: 2%;
+    padding: 0% 2%;
+}
+.basic{  
+    color:#5B5858; 
+    background-color: #ADC8F2; 
+    font-size: 16pt;
+    margin: 2%;
+}
+#datos{ 
+    background-color: #fafafa;
+    margin: 1.2%;
+    padding: 2%;
+    /* IMPORTANTE */
+    width: 70%;
+}
+#responsable{
+    float: left;
+}
+.submit{
+    margin-left: 25%;
+}
+td{
+    padding-left: 5%;
+}
+#select3{
+    position: relative;
+    right: 50%;
+}
+#misCandidaturas{
+    border-radius: 0px 0px 20px 20px;
+}
+/*Ofertas*/
+#ofertas{ 
+    background: -webkit-linear-gradient(left, #ffffff 5%,#cae4fb 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    margin: 1.2%;
+    padding: 2%;
+    width: 70%;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+}
+#ofertas .oferta{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    right: 5%;
+    padding-left: 2%;
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#ofertas button{
+    float:  right;
+    margin: -2% 1% 1% 0;
+    background: none;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #666;
+    padding: 0.5% 1%;
+}
+#ofertas .oferta  table{
+    display: none;
+    width: 50%;
+    text-align: left;
+}
+#ofertas .oferta  table tr td:first-child{
+    width: 40%;
+    text-align: left;
+}
+#ofertas .oferta  table tr td:second-child{
+    width: 60%;
+    text-align: left;
+}
+#ofertas .oferta  table input{
+    width: 100%;
+    background: none;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #666;
+}
+/*Candidaturas*/
+.candidatura{
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    padding: 1%
+}
+.candidatura .titulo{
+    font-weight: bold;
+    font-size: 110%;
+    text-decoration: underline;
+}
+.candidatura input{
+    float:  right;
+    margin: -3% 0 1% 0;
+    background: none;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #666;
+    padding: 0.5% 1%;
+}
+.candidatura .obser{
+    display: none;
+}
+.candidatura .cand_masinfo{
+    text-decoration: none;
+    border: 1px solid #666;
+    border-radius: 15%;
+    padding: 0.2%;
+}
+/*Demandante*/
+#contenedor4{
+    width: 90%;
+    margin: 0 auto;
+}
+#contenido4{
+    width: 100%;
+}
+#datos4{ 
+    padding: 0 3% 10px;
+    border: 1px solid black;
+    width: 60%;  
+    margin: 0 auto;
+}

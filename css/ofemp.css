@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    width: 90%;
+}
+legend{
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:#5FB0DF;
+    border:2px solid #20709E;
+    width:100%;
+    box-shadow: 10px 10px 5px grey;
+}
+#nivfor2{
+    color:#20709E;
+}
+#descripcion {
+    width:50%;
+    margin: 0 auto;
+}
+#resto {
+    width:50%;
+    background-color: #E9EFF2;
+    margin: 0 auto;
+}
+#botones{
+    text-decoration: none;
+    text-align: center;
+}
+#botones table{
+    font-family: "Helvetica";
+    margin-right: 2%;
+}
+#botones tr{
+    margin-right: 2%;
+}
+#registro{
+    border: none;
+    background: none;
+}
+#botones td{
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:#ADC8F2;
+    width:30%;
+    padding: 2%;
+}.boton1 a, .boton2 a{
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+*{font-family: 'Libre Franklin', 'Helvetica', 'Neue helvetica', 'arial', 'sans-serif';}
+.principal{background-color:#ADC8F2; text-align: left; height: 15%; font-weight: bold; padding-bottom: 1%;}
+#titulo{padding-top: 0.8%;}
+textarea{resize: none;}
+#formtitulos{padding-top: 0.8%; text-align: center; font-size: 150%;}
+legend, #tecnico, #responsable, #agencia, .principio{font-weight:bold;}
+legend {border:1px solid #ADC8F2;  background-color: #ADC8F2; width: 100%;}
+input[type=submit]{color:black; background-color: #ADC8F2; font-size: 16pt; text-align: center; width: 15%; padding: 0.3%; margin-top: 1%;}
+input[type=checkbox]{width: 20px; height: 20px;}
+.contenido{ background-color: #fafafa; margin: 1rem; padding: 1rem; text-align:center; width: 50%; margin-left: 25%;}
+.empresa, .puesto, .candidato, #curriculum, #autoriza{ border: 2px solid #ADC8F2;}
+#title1, #title2{font-size:110%;text-align: left; font-weight: bold; position: relative; left: 5%;}
+td{padding-bottom:4%;}
+td {border: 0px solid; padding: 1%;}
+table {border: 0px solid; width: 100%;}
+.perfi {border-left: 2px solid #ADC8F2; border-right: 2px solid #ADC8F2;}
+.empresa input, .puesto input, .candidato input{width: 62%;}
+.demexp{border-bottom: 1px solid black;}
+.deminfosc{text-align: left;}

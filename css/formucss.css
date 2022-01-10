@@ -1,0 +1,25 @@
+*{font-family: "Helvetica";}
+#titulo{padding-top: 0.8%;}
+textarea{resize:none;}
+input[type=checkbox]{width: 20px; height: 20px;}
+.principio{background-color:#ADC8F2; text-align: left; height: 15%; font-weight: bold; padding-bottom: 1%;}
+#formtitulos{padding-top: 0.8%; text-align: center; font-size: 150%;}
+legend, #tecnico, #responsable, #agencia, .principio{font-weight:bold;}
+legend {background-color: #ADC8F2; width: 100%; text-align: center;}
+.contenido{ background-color: #fafafa; text-align:center; width: 30%;}
+.contenido2{ background-color: #fafafa; text-align:center; width: 60%; margin: 0 auto; margin-top:2%; }
+#contenedor{margin: 0 auto;width: 90%;}
+#contenedor1{margin: 0 auto;}
+.empresa, .puesto, .candidato2{ border: 2px solid #ADC8F2;}
+.empresa2 input, .candidato2 input{width: 62%;}
+.empresa{margin: 0 auto; width: 30%; margin-top: 5%;}
+.empresa2, .candidato2{width: 95%;border: 2px solid #ADC8F2; margin: 0 auto;}
+.title3{font-size:110%;text-align: left; font-weight: bold;}
+td{padding-bottom:4%;}
+td {border: 0px solid; padding: 1%;}
+input[type=submit]{color:black; background-color: #ADC8F2; font-size: 13pt; font-weight: bold; text-align: center; width: 15%; padding: 0.3%; margin-top: 1%;}
+#title1{padding-left:40%; padding-right:25%;font-size:110%; font-weight:bold;}
+#preguntas{text-align: left;}
+#preguntas td{width: 90%;}
+#pf1a,#pf1b,#pf1c{position: relative; left: 140px; height: 25px;}
+#datos{margin: 0 auto; width: 60%;}

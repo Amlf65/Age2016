@@ -1,0 +1,78 @@
+*{font-family: "Helvetica";}
+/* BUSCADOR */
+#buscador{
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    padding: 10px;
+    margin-bottom: 2%;
+}
+#buscar{
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(to bottom, #fefefe 0%,#e0dde2 82%,#e0dde2 100%);
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+#busqueda{
+    width: 84%;
+    border-radius: 6px;
+}
+
+/*Ofertas*/
+#ofertas{
+    background: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    margin-left: 5%;
+    background: -webkit-linear-gradient(right, #ffffff 5%,#cae4fb 100%);
+    padding: 2%;
+    width: 80%;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+}
+#ofertas .oferta{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    right: 5%;
+    background: #fff;
+    padding-left: 2%;
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#ofertas button{
+    float:  right;
+    margin: -2% 1% 1% 0;
+    background: #E9E8E8;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #000;
+    padding: 0.5% 1%;
+}
+#ofertas .oferta  table{
+    display: none;
+    width: 85%;
+    text-align: left;
+}
+#ofertas .oferta  table tr td:first-child{
+    width: 30%;
+    text-align: left;
+}
+#ofertas .oferta  table tr td:second-child{
+    width: 25%;
+    text-align: left;
+}
+#ofertas .oferta  table input{
+    width: 100%;
+    background: #E9E8E8;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #000;
+}
