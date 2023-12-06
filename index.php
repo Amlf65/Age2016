@@ -5,14 +5,14 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="css/general.css"/>
-<!--        <link rel="stylesheet" type="text/css" href="css/iconic.css"/>-->
+        <!--<link rel="stylesheet" type="text/css" href="css/iconic.css"/>-->
         <link rel="stylesheet" type="text/css" href="css/headerIcons.css"/>
-        <link type='text/css' href='css/demo.css' rel='stylesheet' media='screen'/>
+        <link type='text/css' href='css/dem.css' rel='stylesheet' media='screen'/>
         <link type='text/css' href='css/basic.css' rel='stylesheet' media='screen'/>
         <!-- Modal -->
-<script type='text/javascript' src='js/jquery.js'></script>
-<script type='text/javascript' src='js/jquery.simplemodal.js'></script>
-<script type='text/javascript' src='js/basic.js'></script>
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+        <script type='text/javascript' src='js/basic.js'></script>
     </head>
     <body>
         <div id="contenedor1">

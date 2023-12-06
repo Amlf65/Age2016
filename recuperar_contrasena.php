@@ -32,6 +32,7 @@
                             $resultados= mysqli_query($conexion,$sql);
                             $fila= mysqli_fetch_array($resultados,MYSQLI_ASSOC);
                             $email = $fila['Email'];
+                            echo $email;
                             $mensaje= "Buenas:\r\nSu contraseña es:".$fila['contrasena'];
                             //Validación: 1º Si la consulta es correcta envía a la interfaz
                             echo ($fila != NULL) ? mail($email, 'Recuperación de Contraseña', $mensaje, 'From: AgenciaTelde <info@address.com>') : (
